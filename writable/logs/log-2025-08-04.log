@@ -1,0 +1,222 @@
+CRITICAL - 2025-08-04 04:06:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:06:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Tinjauan-Pertandingan:-Columbus-Crew-vs-Atlanta-United---Ramalan,-Informasi-Tim,-Formasi-1750893832.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Tinjauan-Pertandingan:-Columbus-Crew-vs-Atlanta-United---Ramalan,-Informasi-Tim,-Formasi-1750893832.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:06:53 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:06:53 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Dibombardir-Iran,-Tentara-Israel-Sembunyi-di-Rumah-Warga-Palestina-1750470279.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Dibombardir-Iran,-Tentara-Israel-Sembunyi-di-Rumah-Warga-Palestina-1750470279.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:07:11 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: admin/artikel/set_approval/36/sudah%20disetujui]
+in SYSTEMPATH\BaseModel.php on line 1014.
+ 1 SYSTEMPATH\BaseModel.php(1014): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update()
+ 3 APPPATH\Controllers\admin\ArtikelController.php(59): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\ArtikelController->set_approval()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:08:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:08:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Tinjauan-Pertandingan:-Columbus-Crew-vs-Atlanta-United---Ramalan,-Informasi-Tim,-Formasi-1750893832.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Tinjauan-Pertandingan:-Columbus-Crew-vs-Atlanta-United---Ramalan,-Informasi-Tim,-Formasi-1750893832.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:08:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:08:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Dibombardir-Iran,-Tentara-Israel-Sembunyi-di-Rumah-Warga-Palestina-1750470279.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Dibombardir-Iran,-Tentara-Israel-Sembunyi-di-Rumah-Warga-Palestina-1750470279.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:09:44 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:09:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:09:54 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:09:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "featured-Tinjauan-Pertandingan:-Columbus-Crew-vs-Atlanta-United---Ramalan,-Informasi-Tim,-Formasi-1750893832.jpg"
+[Method: GET, Route: uploads/gambar_besar/featured-Tinjauan-Pertandingan:-Columbus-Crew-vs-Atlanta-United---Ramalan,-Informasi-Tim,-Formasi-1750893832.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:09:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:10:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Tinjauan-Pertandingan:-Columbus-Crew-vs-Atlanta-United---Ramalan,-Informasi-Tim,-Formasi-1750893832.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Tinjauan-Pertandingan:-Columbus-Crew-vs-Atlanta-United---Ramalan,-Informasi-Tim,-Formasi-1750893832.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:12:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:12:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:12:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Dibombardir-Iran,-Tentara-Israel-Sembunyi-di-Rumah-Warga-Palestina-1750470279.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Dibombardir-Iran,-Tentara-Israel-Sembunyi-di-Rumah-Warga-Palestina-1750470279.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:13:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "featured-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/gambar_besar/featured-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-04 04:15:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "featured-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/gambar_besar/featured-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')

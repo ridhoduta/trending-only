@@ -1,0 +1,269 @@
+ERROR - 2025-08-14 03:24:50 --> Python script tidak mengembalikan output.
+CRITICAL - 2025-08-14 03:24:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-IHSG-Dekati-Rekor-Tertinggi,-Rupiah-Perkasa-Didukung-Arus-Modal-Asing-1755141155.jpg"
+[Method: GET, Route: id/trending-only.com/uploads/thumbnail/thumbnail-IHSG-Dekati-Rekor-Tertinggi,-Rupiah-Perkasa-Didukung-Arus-Modal-Asing-1755141155.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 03:24:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Tala-dan-Mohamed,-Anak-Palestina-yang-Beri-Pesan-Kuat-di-Podium-Piala-Super-Eropa-1755139977.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Tala-dan-Mohamed,-Anak-Palestina-yang-Beri-Pesan-Kuat-di-Podium-Piala-Super-Eropa-1755139977.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 03:24:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Hasil-Monza-Vs-Inter:-Imbang-2-2,-Nerazzurri-Menang-Adu-Penalti-di-Laga-Pramusim-1755051955.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Hasil-Monza-Vs-Inter:-Imbang-2-2,-Nerazzurri-Menang-Adu-Penalti-di-Laga-Pramusim-1755051955.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 03:24:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Susunan-Pemain-Fluminense-untuk-16-Besar-Copa-Sudamericana-2025-Kontra-América-de-Cali-Dikonfirmasi-1755051759.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Susunan-Pemain-Fluminense-untuk-16-Besar-Copa-Sudamericana-2025-Kontra-Am%C3%A9rica-de-Cali-Dikonfirmasi-1755051759.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 03:24:53 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-IHSG-Dekati-Rekor-Tertinggi,-Rupiah-Perkasa-Didukung-Arus-Modal-Asing-1755141155.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-IHSG-Dekati-Rekor-Tertinggi,-Rupiah-Perkasa-Didukung-Arus-Modal-Asing-1755141155.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 03:24:53 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Israel-Larang-430-Jenis-Makanan-Masuk-Gaza,-Krisis-Pangan-Semakin-Parah-1755055336.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Israel-Larang-430-Jenis-Makanan-Masuk-Gaza,-Krisis-Pangan-Semakin-Parah-1755055336.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 03:24:53 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Sektor-Perbankan-Menguat,-Saham-BRI-Naik-6,30%-Dorong-IHSG-ke-Level-7.791,69-1754997965.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Sektor-Perbankan-Menguat,-Saham-BRI-Naik-6,30%25-Dorong-IHSG-ke-Level-7.791,69-1754997965.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+ERROR - 2025-08-14 03:44:41 --> Python script tidak mengembalikan output.
+ERROR - 2025-08-14 03:53:38 --> Python script tidak mengembalikan output.
+ERROR - 2025-08-14 03:55:25 --> Python script tidak mengembalikan output.
+ERROR - 2025-08-14 04:06:28 --> Python script tidak mengembalikan output.
+ERROR - 2025-08-14 04:06:33 --> Python script tidak mengembalikan output.
+ERROR - 2025-08-14 07:22:58 --> Error fetching recommendations: 7 : Failed to connect to localhost port 5000 after 2255 ms: Could not connect to server
+ERROR - 2025-08-14 07:44:59 --> mysqli_sql_exception: Unknown column 'activity_value' in 'field list' in C:\laragon\www\CodeIgniter4-4.6.1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+#4 C:\laragon\www\CodeIgniter4-4.6.1\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CodeIgniter4-4.6.1\system\BaseModel.php(843): CodeIgniter\Model->doInsert()
+#6 C:\laragon\www\CodeIgniter4-4.6.1\system\Model.php(800): CodeIgniter\BaseModel->insert()
+#7 C:\laragon\www\CodeIgniter4-4.6.1\app\Controllers\Artikel.php(182): CodeIgniter\Model->insert()
+#8 C:\laragon\www\CodeIgniter4-4.6.1\app\Controllers\Artikel.php(150): App\Controllers\Artikel->logActivity()
+#9 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(933): App\Controllers\Artikel->detail()
+#10 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#11 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\laragon\www\CodeIgniter4-4.6.1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CodeIgniter4-4.6.1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 C:\laragon\www\CodeIgniter4-4.6.1\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#15 C:\laragon\www\CodeIgniter4-4.6.1\system\rewrite.php(44): require_once('...')
+#16 {main}
+CRITICAL - 2025-08-14 07:44:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'activity_value' in 'field list'
+[Method: GET, Route: id/hukum-dan-pemerintah/hari-bhayangkara-ke79-dipusatkan-di-monas-polri-libatkan-drum-corps-cendrawasih-akpol-dalam-perayaan]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert()
+ 5 APPPATH\Controllers\Artikel.php(182): CodeIgniter\Model->insert()
+ 6 APPPATH\Controllers\Artikel.php(150): App\Controllers\Artikel->logActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Artikel->detail()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 07:44:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'activity_value' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert()
+ 7 APPPATH\Controllers\Artikel.php(182): CodeIgniter\Model->insert()
+ 8 APPPATH\Controllers\Artikel.php(150): App\Controllers\Artikel->logActivity()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Artikel->detail()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 07:44:59 --> [Caused by] mysqli_sql_exception: Unknown column 'activity_value' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Artikel.php(182): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Artikel.php(150): App\Controllers\Artikel->logActivity()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Artikel->detail()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+ERROR - 2025-08-14 07:45:03 --> mysqli_sql_exception: Unknown column 'activity_value' in 'field list' in C:\laragon\www\CodeIgniter4-4.6.1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+#4 C:\laragon\www\CodeIgniter4-4.6.1\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CodeIgniter4-4.6.1\system\BaseModel.php(843): CodeIgniter\Model->doInsert()
+#6 C:\laragon\www\CodeIgniter4-4.6.1\system\Model.php(800): CodeIgniter\BaseModel->insert()
+#7 C:\laragon\www\CodeIgniter4-4.6.1\app\Controllers\Artikel.php(182): CodeIgniter\Model->insert()
+#8 C:\laragon\www\CodeIgniter4-4.6.1\app\Controllers\Artikel.php(150): App\Controllers\Artikel->logActivity()
+#9 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(933): App\Controllers\Artikel->detail()
+#10 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#11 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\laragon\www\CodeIgniter4-4.6.1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CodeIgniter4-4.6.1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#14 C:\laragon\www\CodeIgniter4-4.6.1\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#15 C:\laragon\www\CodeIgniter4-4.6.1\system\rewrite.php(44): require_once('...')
+#16 {main}
+CRITICAL - 2025-08-14 07:45:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'activity_value' in 'field list'
+[Method: GET, Route: id/olahraga/liverpool-umumkan-perekrutan-milos-kerkez-bek-kiri-muda-berbakat-dari-bournemouth]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert()
+ 5 APPPATH\Controllers\Artikel.php(182): CodeIgniter\Model->insert()
+ 6 APPPATH\Controllers\Artikel.php(150): App\Controllers\Artikel->logActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Artikel->detail()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 07:45:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'activity_value' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert()
+ 7 APPPATH\Controllers\Artikel.php(182): CodeIgniter\Model->insert()
+ 8 APPPATH\Controllers\Artikel.php(150): App\Controllers\Artikel->logActivity()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Artikel->detail()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 07:45:03 --> [Caused by] mysqli_sql_exception: Unknown column 'activity_value' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Artikel.php(182): CodeIgniter\Model->insert()
+ 9 APPPATH\Controllers\Artikel.php(150): App\Controllers\Artikel->logActivity()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Artikel->detail()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+ERROR - 2025-08-14 07:46:16 --> Error fetching recommendations: 7 : Failed to connect to localhost port 5000 after 2264 ms: Could not connect to server
+CRITICAL - 2025-08-14 07:46:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "featured-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/gambar_besar/featured-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 07:52:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "featured-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg"
+[Method: GET, Route: uploads/gambar_besar/featured-Hari-Bhayangkara-ke-79-Dipusatkan-di-Monas,-Polri-Libatkan-Drum-Corps-Cendrawasih-Akpol-dalam-Perayaan-1750951546.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 08:08:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "featured-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg"
+[Method: GET, Route: uploads/gambar_besar/featured-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-14 08:11:35 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "featured-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg"
+[Method: GET, Route: uploads/gambar_besar/featured-Israel-Gempur-Jalur-Gaza-di-Tengah-Memanasnya-Konflik-dengan-Iran,-Puluhan-Warga-Palestina-Tewas-1750645043.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')

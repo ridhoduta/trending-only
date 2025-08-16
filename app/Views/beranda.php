@@ -22,7 +22,7 @@
                     <!-- Artikel Utama -->
                     <div class="post post-thumb">
                         <a class="post-img" href="/<?= $lang; ?>/<?= $latestArticles[0]['kategori']['slug_' . $lang]; ?>/<?= $latestArticles[0]['slug_' . $lang]; ?>">
-                            <img src="<?= base_url('uploads/thumbnail/' . $latestArticles[0]['thumbnail']); ?>" alt="<?= $latestArticles[0]['judul_' . $lang]; ?>">
+                            <img src="<?= base_url('/uploads/thumbnail/' . $latestArticles[0]['thumbnail']); ?>" alt="<?= $latestArticles[0]['judul_' . $lang]; ?>">
                         </a>
                         <div class="post-body">
                             <div class="post-category">

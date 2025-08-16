@@ -1,0 +1,114 @@
+ERROR - 2025-08-16 03:26:51 --> mysqli_sql_exception: MySQL server has gone away in C:\laragon\www\CodeIgniter4-4.6.1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 C:\laragon\www\CodeIgniter4-4.6.1\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CodeIgniter4-4.6.1\system\BaseModel.php(679): CodeIgniter\Model->doFindAll()
+#6 C:\laragon\www\CodeIgniter4-4.6.1\app\Controllers\Beranda.php(209): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CodeIgniter4-4.6.1\app\Controllers\Beranda.php(31): App\Controllers\Beranda->getRecommendedArticles()
+#8 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(933): App\Controllers\Beranda->index()
+#9 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#10 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\laragon\www\CodeIgniter4-4.6.1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\CodeIgniter4-4.6.1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 C:\laragon\www\CodeIgniter4-4.6.1\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#14 C:\laragon\www\CodeIgniter4-4.6.1\system\rewrite.php(44): require_once('...')
+#15 {main}
+ERROR - 2025-08-16 03:26:51 --> Error menjalankan Python: MySQL server has gone away
+ERROR - 2025-08-16 03:26:51 --> mysqli_sql_exception: MySQL server has gone away in C:\laragon\www\CodeIgniter4-4.6.1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\laragon\www\CodeIgniter4-4.6.1\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 C:\laragon\www\CodeIgniter4-4.6.1\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CodeIgniter4-4.6.1\system\BaseModel.php(679): CodeIgniter\Model->doFindAll()
+#6 C:\laragon\www\CodeIgniter4-4.6.1\app\Controllers\Beranda.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(933): App\Controllers\Beranda->index()
+#8 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#9 C:\laragon\www\CodeIgniter4-4.6.1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\laragon\www\CodeIgniter4-4.6.1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CodeIgniter4-4.6.1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\laragon\www\CodeIgniter4-4.6.1\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#13 C:\laragon\www\CodeIgniter4-4.6.1\system\rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2025-08-16 03:26:51 --> CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+[Method: GET, Route: id/]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll()
+ 4 APPPATH\Controllers\Beranda.php(36): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beranda->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-16 03:26:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll()
+ 6 APPPATH\Controllers\Beranda.php(36): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beranda->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-16 03:26:51 --> [Caused by] mysqli_sql_exception: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Beranda.php(36): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beranda->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-16 03:27:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Israel-Klaim-Sudan-Selatan-Siap-Terima-Warga-Palestina-dari-Gaza,-Pemerintah-Bantah-1755231947.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Israel-Klaim-Sudan-Selatan-Siap-Terima-Warga-Palestina-dari-Gaza,-Pemerintah-Bantah-1755231947.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-16 03:27:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Tala-dan-Mohamed,-Anak-Palestina-yang-Beri-Pesan-Kuat-di-Podium-Piala-Super-Eropa-1755139977.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Tala-dan-Mohamed,-Anak-Palestina-yang-Beri-Pesan-Kuat-di-Podium-Piala-Super-Eropa-1755139977.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
+CRITICAL - 2025-08-16 03:27:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "thumbnail-Hasil-Monza-Vs-Inter:-Imbang-2-2,-Nerazzurri-Menang-Adu-Penalti-di-Laga-Pramusim-1755051955.jpg"
+[Method: GET, Route: uploads/thumbnail/thumbnail-Hasil-Monza-Vs-Inter:-Imbang-2-2,-Nerazzurri-Menang-Adu-Penalti-di-Laga-Pramusim-1755051955.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4-4.6.1\\public\\index.php')
